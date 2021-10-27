@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>방탈출</title>
+    <style>
+      html{
+        overflow-y: hidden;
+      }
+      body{
+        z-index: -10;
+      }
+      #table{
+        position: absolute;
+        padding-top: 270px;
+        z-index: -3;
+      }
+      #camera{
+        position: absolute;
+        padding-top: 400px;
+        padding-left: 100px;
+        z-index: 1;
+      }
+        #safe{
+          position: absolute;
+          padding-top: 360px;
+          padding-left: 200px;
+          z-index: 0;
+        }
+        #speaker{
+          padding: 0;
+          padding-top: 300px;
+          padding-left: 300px;
+          z-index: -2;
+        }
+        #bs{
+            position: absolute;
+            z-index: -5;
+          }/*1027524*/
+    </style>
+  </head>
+  <body>
+    <a href="bookshelf1.html"><img src="bookshelf.jpg" width="110%" id="bs" title="책장"></a>
+    <img id="table" src="table-test1.png" width=50% title="테이블">
+    <a href="camera1.html"><img id="camera" src="camera-test.png" width=7% title="카메라"></a>
+    <a href="safe1.html"><img id="safe" src="safe.png" width="10%" title="금고"></a>
+    <a href="speaker1.html"><img id="speaker" src="speaker.png" width="10%" title="스피커"></a>
+  </body>
+</html>
